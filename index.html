@@ -7,7 +7,28 @@
 </head>
 <body>
     <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
+    <div class="game_stat">
+        Lives: <span id = "lives">3</span>
+    </div>
+    <div class="game_stat">
+        Games won: <span id = "points">0</span>
+    </div>
+    <div class="game_stat">
+        Collected Stars: <span id = "c_items">0</span>
+    </div>
+    <div class="game_stat">
+        Total score: <span id = "tot_score">0</span>
+        <br />
+        <span style="font-size:11px">Cross the street = 1 point</span>
+        <br />
+        <span style="font-size:11px">1 star = 0.5 points</span>
+        <br />
+        <span style="font-size:11px">Life lost = -1 point</span>
+    </div>
+    <div class="game_stat" id="best_score_div">
+        Best score: <span id = "best_score">-5</span>
+    </div>
+    <script src="js/app.js"></script>
 </body>
 </html>

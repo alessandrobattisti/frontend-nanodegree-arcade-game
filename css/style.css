@@ -1,3 +1,21 @@
 body {
     text-align: center;
 }
+
+.game_stat {
+    width: 505px;
+    margin: auto;
+    background: #29295c;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+#best_score_div {
+    display: none;
+}
+
+#best_score_div {
+    background:red;
+}

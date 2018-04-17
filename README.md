@@ -1,6 +1,27 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Udacity Front-End Web Developer Nanodegree Program
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Description
+
+Simple arcade game created using HTML, CSS and Javascript.
+
+## How to run:
+Clone or download this repository and open index.html in a browser.
+
+A working demo can be played here: http://alebat.atwebpages.com/arcade/
+
+## How to play:
+
+The goal of this game is to cross the street avoiding to get hit by vehicles.
+
+You begin with 3 lives, each time you get hit by a vehicle you loose one life and one point.
+
+Each time you successfully cross the street you gain one point.
+
+You can collect items (stars) that randomly appear on the street, each collected item gives you 1/2 point.
+
+## Resources used
+
+Images comes from original Udacity repository https://github.com/udacity/frontend-nanodegree-arcade-game
